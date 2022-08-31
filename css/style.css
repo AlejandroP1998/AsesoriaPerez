@@ -1,29 +1,99 @@
-/*-------------------------------------------------------- NAV ------------------------------------------------------*/
-.nav {
-    background-color: #21232d;
-}
-/*------------------------------------------------------- INDEX -----------------------------------------------------*/
+/*------------------------------------------------ ELEMENTOS AUXILIARES ---------------------------------------------*/
 .color1 {
     background-color: rgba(1, 19, 38, 0.7);
 }
 
-.color2{
+.color2 {
     background-color: #0F3D3E;
-    padding-bottom: 5vh;
 }
 
-.top-space{
+.color3 {
+    background-color: #FFC900;
+}
+
+.color4 {
+    background-color: #187498;
+}
+
+.color5 {
+    background-color: #FFB200;
+}
+
+.color6 {
+    background-color: #0C1E7F;
+}
+
+.color7 {
+    background-color: #293462;
+}
+
+.hr1{
+    color: #FFC900;
+}
+
+.hr2{
+    color: #187498;
+}
+
+.hr3{
+    color: #0F3D3E;
+}
+
+.top-space {
     padding-top: 15vh;
 }
 
-.top-separation{
+.top-space1 {
+    padding-top: 5vh;
+}
+
+.top-space2 {
+    padding-top: 15vw;
+}
+
+.top-separation {
     margin-top: 10vh;
 }
+
+.bottom-separation {
+    margin-bottom: 5vw;
+}
+
+.bottom-separation1 {
+    padding-bottom: 15vw;
+}
+
+.bottom-separation2{
+    padding-bottom: 5vh;
+}
+
+.main-text {
+    font-family: 'Pacifico', cursive;
+}
+
+.fontSize{
+    font-size: 1.5rem;
+}
+
+.fontSize1{
+    font-size: 3rem;
+}
+
+/*-------------------------------------------------------- NAV ------------------------------------------------------*/
+.nav {
+    background-color: #590696;
+}
+
+/*------------------------------------------------------- FOOTER ----------------------------------------------------*/
+.footer-color {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*------------------------------------------------------- INDEX -----------------------------------------------------*/
 
 .container-fluid {
     height: 90%;
     width: 100%;
-
 }
 
 .carousel-inner img {
@@ -36,7 +106,37 @@
     height: 100%;
 }
 
-#logo{
+#logo {
     margin-left: auto;
     margin-right: auto;
+}
+
+.fondoMision {
+    background-image: url(../img/mision.jpg);
+    background-size: 100% 100%;
+}
+
+/*---------------------------------------------------- PRE-PRIMARIA -------------------------------------------------*/
+
+#img5 {
+    width: auto;
+    height: 120vh;
+}
+
+.accordion .accordion-item {
+    background-color: #FFF89A;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button {
+    background-color: #210d41;
+}
+
+.card {
+    width: 18rem;
+}
+
+.fondo1 {
+    background-image: url(../img/img13.jpg);
+    background-size: 100vw 100vh;
+    height: 100vh;
 }

@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/TRIANGLE.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Etiqueta de enlace a todos los css de bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <title>Triangle</title>
 </head>
 
@@ -17,14 +22,14 @@
     <!-- Panel de navegacion bootstrap -->
     <nav class="navbar navbar-dark navbar-expand-lg nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="w-25" src="./img/Triangle.png" alt="logo"></a>
+            <a class="navbar" href="#"><img class="w-50" src="./img/logo-nav.png" alt="logo"></a>
             <div class="navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                    <a class="nav-link" href="./pages/prePrimaria.html">Pre-primaria</a>
-                    <a class="nav-link" href="./pages/primaria.html">Primaria</a>
-                    <a class="nav-link" href="./pages/basicos.html">Basicos</a>
-                    <a class="nav-link" href="./pages/diversificado.html">Diversificado</a>
+                <div class="navbar-nav fontSize main-text">
+                    <a class="nav-link main-text active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link main-text" href="./pages/preKinder.html">Pre-Kinder</a>
+                    <a class="nav-link main-text" href="./pages/kinder.html">Kinder</a>
+                    <a class="nav-link main-text" href="./pages/prePrimaria.html">Pre-Primaria</a>
+                    <a class="nav-link main-text" href="./pages/primaria.html">Primaria</a>
                 </div>
             </div>
         </div>
@@ -46,7 +51,7 @@
             <div class="carousel-item active" data-bs-interval="10000">
                 <a href="./pages/prePrimaria.html"><img src="./img/img1.jpg" class="d-block w-100" alt="img1"></a>
                 <div class="carousel-caption d-none d-md-block text-white color1">
-                    <h2>Pre-primaria</h2>
+                    <h2 class="main-text">Pre-Kinder</h2>
                     <h5>"La enseñanza que deja huella no es la que se hace de cabeza<br> a cabeza, sino de corazón a
                         corazón"</h5>
                 </div>
@@ -54,22 +59,22 @@
             <div class="carousel-item" data-bs-interval="2000">
                 <a href="./pages/primaria.html"><img src="./img/img2.jpg" class="d-block w-100" alt="img2"></a>
                 <div class="carousel-caption d-none d-md-block text-white color1">
-                    <h2>Primaria</h2>
-                    <h5>"Para ejerceruna influencia benefica entre los niños,<br> es indispensable participar de sus
+                    <h2 class="main-text">Kinder</h2>
+                    <h5>"Para ejercer una influencia benefica entre los niños,<br> es indispensable participar de sus
                         alegrias"</h5>
                 </div>
             </div>
             <div class="carousel-item">
                 <a href="./pages/basicos.html"><img src="./img/img3.jpg" class="d-block w-100" alt="img3"></a>
                 <div class="carousel-caption d-none d-md-block text-white color1">
-                    <h2>Básicos</h2>
-                    <h4>"Mantente fiel a los sueños de tu juventud."</h4>
+                    <h2 class="main-text">Pre-Primaria</h2>
+                    <h4>"Mantente fiel a tus sueños."</h4>
                 </div>
             </div>
             <div class="carousel-item">
                 <a href="./pages/diversificado.html"><img src="./img/img4.jpg" class="d-block w-100" alt="img4"></a>
                 <div class="carousel-caption d-none d-md-block text-white color1">
-                    <h2>Diversificado</h2>
+                    <h2 class="main-text">Primaria</h2>
                     <h5>"El aprendizaje es un tesoro que te seguira allá donde vayas."</h5>
                 </div>
             </div>
@@ -84,6 +89,62 @@
         </button>
     </div>
 
+    <!-- Grids -->
+    <div class="container-fluid text-center d-flex flex-column justify-content-center text-white">
+        <div class="row color7">
+            <div class="col">
+                <h2 class="main-text fontSize1 text-white top-space">Conoce a nuestras autoridades</h2>
+            </div>
+        </div>
+        <div class="row color7">
+            <div class="col top-space">
+                <div class="card bottom-separation">
+                    <img class="img-fluid" src="../img/img14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body color5">
+                      <h5 class="card-title color6 text-white">María Soza</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col top-space">
+                <div class="card bottom-separation">
+                    <img class="img-fluid" src="../img/img15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body color5">
+                      <h5 class="card-title color6 text-white">Cristina Urrutía</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col top-space">
+                <div class="card bottom-separation">
+                    <img class="img-fluid" src="../img/img16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body color5">
+                      <h5 class="card-title color6 text-white">Jenifer Herrarte</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col top-space">
+                <div class="card bottom-separation">
+                    <img class="img-fluid" src="../img/img17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body color5">
+                      <h5 class="card-title color6 text-white">Marco Sandoval</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row fondoMision">
+            <div class="col color1">
+                <h2 class="main-text top-space2 fontSize1">Misión</h2>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In repellat, beatae architecto mollitia
+                    nulla quibusdam consequatur dolorum? Nostrum, magnam temporibus doloribus nam illo sequi perferendis
+                    facilis vero, dolore autem nulla.</h3>
+                <h2 class="main-text fontSize1 top-space">Visión</h2>
+                <h3 class="bottom-separation1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eos facere fugiat voluptates dignissimos odio corporis mollitia sunt maxime saepe aliquid perspiciatis architecto pariatur libero, consequuntur</h3>
+            </div>
+        </div>
+    </div>
     <!-- Formulario bootstrap -->
     <div class="container-fluid color2 text-white">
         <div class="row">
@@ -129,32 +190,35 @@
         </div>
     </div>
 
-    <footer class="bg-light text-center text-lg-start">
+    <!-- Pie de pagina bootstrap -->
+    <footer class="bg-dark text-start text-white text-lg-start">
         <!-- Grid container -->
         <div class="container p-4">
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Footer text</h5>
+                    <h5 class="text-uppercase">Ubicaciones</h5>
 
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                        aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                    </p>
+                    <ul>
+                        <li><a href="#">Buenos Aires, Argentina</a></li>
+                        <li><a href="#">Montevideo, Uruguay</a></li>
+                        <li><a href="#">Ciudad Capital, Guatemala</a></li>
+                        <li><a href="#">Distrito Federal, México</a></li>
+                    </ul>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Footer text</h5>
+                    <h5 class="text-uppercase">Servicios adicionales</h5>
 
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                        aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                    </p>
+                    <ul>
+                        <li><a href="#">Escuela para padres</a></li>
+                        <li><a href="#">Escuela para mayores de edad</a></li>
+                        <li><a href="#">Capacitación para examenes privados</a></li>
+                        <li><a href="#">Escuela online</a></li>
+                    </ul>
                 </div>
                 <!--Grid column-->
             </div>
@@ -163,16 +227,19 @@
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2020 Copyright:
-            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <div class="text-center p-3 footer-color">
+            <h5>© 2022 Colegio Triangle, Todos los derechos reservados
+                <a class="text-white" href="#">triangle.com</a>
+            </h5>
         </div>
         <!-- Copyright -->
     </footer>
 
+    <!-- Etiqueta de enlace a todos los javascript de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
