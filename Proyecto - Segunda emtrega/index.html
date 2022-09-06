@@ -12,13 +12,16 @@
     <!-- Etiqueta de enlace a todos los css de bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Mis estilos css -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Triangle</title>
 </head>
 
 <body>
     <!-- Panel de navegacion bootstrap -->
-    <nav class="navbar navbar-dark navbar-expand-lg nav">
+    <nav class="navbar navbar-dark navbar-expand-lg nav text-center">
         <div class="container-fluid">
             <a class="navbar" href="./index.html"><img class="w-50" src="./img/logo-nav.png" alt="logo"></a>
             <div class="navbar-collapse" id="navbarNavAltMarkup">
@@ -88,20 +91,24 @@
     </div>
 
     <!-- Grids -->
-    <div class="container-fluid text-center d-flex flex-column justify-content-center text-white">
+    <div class="container-fluid text-center d-flex flex-column justify-content-center aling-items-center text-white">
         <div class="row color7">
             <div class="col">
-                <h2 class="main-text fontSize1 text-white top-space">Conoce a nuestras autoridades</h2>
+                <hr class="hr">
             </div>
         </div>
-        <div class="row color7">
+        <div class="row bg-dark text-white">
+            <div class="col">
+                <h1 class="main-text top-space1 bottom-separation2 fontSize1">Conoce a nuestras autoridades</h1>
+            </div>
+        </div>
+        <div class="row color7 d-flex flex-row flex-wrap">
             <div class="col top-space">
                 <div class="card bottom-separation">
                     <img class="img-fluid" src="./img/img14.jpg" class="card-img-top" alt="...">
                     <div class="card-body color5">
                         <h5 class="card-title color6 text-white">María Soza</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">Psicologa, con especialidad en tratar a niños con desorden de atención.</p>
                     </div>
                 </div>
             </div>
@@ -110,8 +117,7 @@
                     <img class="img-fluid" src="./img/img15.jpg" class="card-img-top" alt="...">
                     <div class="card-body color5">
                         <h5 class="card-title color6 text-white">Cristina Urrutía</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">Directora del area de kinder, licenciada en ciencias y letras con maestria en educación.</p>
                     </div>
                 </div>
             </div>
@@ -120,8 +126,7 @@
                     <img class="img-fluid" src="./img/img16.jpg" class="card-img-top" alt="...">
                     <div class="card-body color5">
                         <h5 class="card-title color6 text-white">Jenifer Herrarte</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">Directora del area primaria, licenciada en ciencias sociales, con maestría en finanzas estudiantiles.</p>
                     </div>
                 </div>
             </div>
@@ -130,8 +135,7 @@
                     <img class="img-fluid" src="./img/img17.jpg" class="card-img-top" alt="...">
                     <div class="card-body color5">
                         <h5 class="card-title color6 text-white">Marco Sandoval</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">Encargado del area disciplinaria y de apoyo a los padres de los estudiantes.</p>
                     </div>
                 </div>
             </div>
@@ -139,13 +143,13 @@
         <div class="row fondoMision">
             <div class="col color1">
                 <h2 class="main-text top-space2 fontSize1">Misión</h2>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In repellat, beatae architecto mollitia
-                    nulla quibusdam consequatur dolorum? Nostrum, magnam temporibus doloribus nam illo sequi perferendis
-                    facilis vero, dolore autem nulla.</h3>
+                <h3 class="side__separation">
+                    Tenemos como misión formar a las futuras generaciones con valores solidos y identidades concretas, para un desarrollo social optimo adaptado a sus gustos e intereses, para asi personalizar la educación a un enfoque elegido directamente por los estudiantes.
+                </h3>
                 <h2 class="main-text fontSize1 top-space">Visión</h2>
-                <h3 class="bottom-separation1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eos
-                    facere fugiat voluptates dignissimos odio corporis mollitia sunt maxime saepe aliquid perspiciatis
-                    architecto pariatur libero, consequuntur</h3>
+                <h3 class="bottom-separation1 side__separation">
+                    Ser una institución recordada por cada estudiante como una casa de estudios que siempre tendra las puertas abiertas para apoyarlos a lo largo de su vida profesional y laboral, ademas de generar la confianza suficiente para continuar con las generaciones futuras.
+                </h3>
             </div>
         </div>
     </div>
@@ -153,13 +157,13 @@
     <div class="container-fluid text-center text-dark">
         <div class="row color2">
             <div class="col">
-                <hr class="hr3">
+                <hr class="hr">
             </div>
         </div>
 
         <div class="row bg-dark text-white">
             <div class="col">
-                <h2 class="main-text top-space1 bottom-separation2 fontSize1">Formulario para agendar cita</h2>
+                <h2 class=" textE main-text top-space1 bottom-separation2 fontSize1">Formulario para agendar cita</h2>
             </div>
         </div>
 
@@ -182,7 +186,7 @@
                 </div>
             </div>
             <div class="col text-center top-space d-flex flex-column justify-content-center">
-                <h1>Contacto</h1>
+                <h2 class="main-text fontSize1">Contacto</h2>
                 <h5>Siguenos en nuestras redes sociales o envíanos un mensaje si tienes alguna consulta</h5>
                 <ul class="text-start">
                     <li>
