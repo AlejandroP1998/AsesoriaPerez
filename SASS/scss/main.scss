@@ -1,0 +1,139 @@
+/* Reset */
+@import 'reset';
+@import 'vars';
+
+/* Clases complementarias */
+.textStyled {
+    font-family: 'Pacifico', cursive;
+}
+
+.carousel-caption {
+    background-color: $bg-transparente;
+    padding: 5vh;
+}
+
+.carousel-item {
+    img {
+        object-fit:fill;
+    }
+}
+
+.footer-color{
+    background-color: $bg-transparente;
+}
+
+.hr{
+    color: transparent;
+    padding: 2vw;
+}
+
+.card-body{
+    background-color: $bg5;
+}
+
+.transparencia{
+    background-color: $bg-transparente;
+}
+
+#logo{
+    margin: auto;
+}
+
+/* --------------------------------------------- INDEX ----------------------------------- */
+
+.index-part1{
+    background-color: $bg3;
+}
+
+.index-part2{
+    background-color: $bg1;
+}
+
+.fondoMision{
+    background-image: url(../assets/img/mision.jpg);
+    background-size: 100vw 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+    header {
+        background-color: $bg-nav;
+        padding: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 100vw;
+        }
+    }
+
+    nav {
+        background-color: $bg-nav1;
+        padding: 5vh;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: none;
+
+            li {
+                margin: 3vw;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Pacifico', cursive;
+                    font-size: 1.5rem;
+
+                    &:hover {
+                        color: #53BF9D;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) {
+
+    /* Enzabezado */
+    header {
+        background-color: $bg-nav;
+        padding: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    nav {
+        background-color: $bg-nav1;
+        padding: 5vh;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: none;
+
+            li {
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Pacifico', cursive;
+                    font-size: 2.5vw;
+
+                    &:hover {
+                        color: #53BF9D;
+                    }
+                }
+            }
+        }
+    }
+}
