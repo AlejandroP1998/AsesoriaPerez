@@ -53,7 +53,7 @@ header {
 }
 
 .carrusel {
-    @include sizes(100%,140vw);
+    @include sizes(100%,100vw);
 }
 
 .hr{
@@ -68,7 +68,7 @@ header {
 }
 
 .mv{
-    background-image: url(../img/mision.svg);
+    background-image: url(../img/mision.png);
     background-size: 100vw 100vw;
     height: 100vw;
 }
@@ -112,25 +112,25 @@ header {
 }
 
 .fondo2 {
-    background-image: url(../img/img19.svg);
+    background-image: url(../img/img19.png);
     background-size: 100vw 100vw;
     height: 100vw;
 }
 
 .fondo3 {
-    background-image: url(../img/img13.svg);
+    background-image: url(../img/img13.png);
     background-size: 100vw 100vw;
     height: 100vw;
 }
 
 .fondo4 {
-    background-image: url(../img/img20.svg);
+    background-image: url(../img/img20.png);
     background-size: 100vw 100vw;
     height: 100vw;
 }
 
 .fondo5 {
-    background-image: url(../img/img21.svg);
+    background-image: url(../img/img21.png);
     background-size: 100vw 100vw;
     height: 100vw;
 }
