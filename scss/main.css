@@ -119,7 +119,7 @@ header {
 
 /* uso de mixin */
 .carrusel {
-  height: 100vw;
+  height: 80vw;
   width: 100%;
 }
 
