@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Map de fondos de pantalla */
+.bg-0 {
+  background-color: #590696;
+}
+
+.bg-1 {
+  background-color: rgba(1, 19, 38, 0.7);
+}
+
+.bg-2 {
+  background-color: #0F3D3E;
+}
+
+.bg-3 {
+  background-color: #FFC900;
+}
+
+.bg-4 {
+  background-color: #187498;
+}
+
+.bg-5 {
+  background-color: #FFB200;
+}
+
+.bg-6 {
+  background-color: #0C1E7F;
+}
+
+.bg-7 {
+  background-color: #293462;
+}
+
+.bg-8 {
+  background-color: #FF6FB5;
+}
+
+.bg-9 {
+  background-color: #F47340;
+}
+
+.bg-10 {
+  background-color: #91D18B;
+}
+
+.bg-11 {
+  background-color: #FFF89A;
+}
+
+.title, .accordion .accordion-item .accordion-header .accordion-button, .titlemv, .nav-link {
+  font-family: "Pacifico", cursive;
+  font-size: 1.7vw;
+}
+
+/* uso del extend */
+.nav-link {
+  color: white;
+  padding: 1vw;
+}
+
+.nav-link:hover {
+  /* Uso del map-get */
+  color: #91D18B;
+}
+
+header {
+  width: 100%;
+}
+
+/* uso de mixin */
+.carrusel {
+  height: 60vw;
+  width: 100%;
+}
+
+.hr {
+  color: transparent;
+  padding: 2vw;
+  margin: 0;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mv {
+  background-image: url(../img/mision.svg);
+  background-size: 100vw 100vw;
+  height: 100vw;
+}
+
+.bloque {
+  height: 100vw;
+}
+
+.titlemv {
+  font-size: 8vw;
+  margin: 4vw;
+}
+
+.fst {
+  font-size: 3vw;
+  line-height: 4vw;
+}
+
+.enlace {
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.listF li {
+  padding: 2vw;
+}
+
+.resaltado {
+  color: #FFC900;
+}
+
+.accordion .accordion-item {
+  background-color: #FFF89A;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button {
+  background-color: #0C1E7F;
+  color: white;
+}
+
+.fondo2 {
+  background-image: url(../img/img19.svg);
+  background-size: 100vw 100vw;
+  height: 100vw;
+}
+
+.fondo3 {
+  background-image: url(../img/img13.svg);
+  background-size: 100vw 100vw;
+  height: 100vw;
+}
+
+.fondo4 {
+  background-image: url(../img/img20.svg);
+  background-size: 100vw 100vw;
+  height: 100vw;
+}
+
+.fondo5 {
+  background-image: url(../img/img21.svg);
+  background-size: 100vw 100vw;
+  height: 100vw;
+}/*# sourceMappingURL=main.css.map */

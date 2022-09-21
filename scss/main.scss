@@ -1,0 +1,136 @@
+@import 'reset';
+
+/* Map de fondos de pantalla */
+$fondo: (
+    0:#590696,
+    1: rgba(1, 19, 38, 0.7),
+    2: #0F3D3E,
+    3: #FFC900,
+    4: #187498,
+    5: #FFB200,
+    6: #0C1E7F,
+    7: #293462,
+    8: #FF6FB5,
+    9: #F47340,
+    10: #91D18B,
+    11: #FFF89A
+);
+
+@each $name,
+$color in $fondo {
+    .bg-#{$name} {
+        background-color: $color;
+    }
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.7vw;
+}
+
+/* uso del extend */
+
+.nav-link {
+    @extend .title;
+    color: white;
+    padding: 1vw;
+}
+
+.nav-link:hover {    
+    /* Uso del map-get */
+    color: map-get($fondo, 10 );
+}
+
+header {
+    width: 100%;
+}
+
+
+/* uso de mixin */
+@mixin sizes($width,$height) {
+    height: $height;
+    width: $width;
+}
+
+.carrusel {
+    @include sizes(100%,140vw);
+}
+
+.hr{
+    color: transparent;
+    padding: 2vw;
+    margin: 0;
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mv{
+    background-image: url(../img/mision.svg);
+    background-size: 100vw 100vw;
+    height: 100vw;
+}
+
+.bloque{
+    height: 100vw;
+}
+
+.titlemv{
+    @extend .title;
+    font-size: 8vw;
+    margin: 4vw;
+}
+
+.fst{
+    font-size: 3vw;
+    line-height: 4vw;
+}
+
+.enlace{
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.listF li{
+    padding: 2vw;
+}
+
+.resaltado{
+    color: map-get($fondo , 3 );
+}
+
+.accordion .accordion-item {
+    background-color: map-get($fondo , 11 );
+}
+
+.accordion .accordion-item .accordion-header .accordion-button {
+    background-color: map-get($fondo , 6 );
+    color: white;
+    @extend .title;
+}
+
+.fondo2 {
+    background-image: url(../img/img19.svg);
+    background-size: 100vw 100vw;
+    height: 100vw;
+}
+
+.fondo3 {
+    background-image: url(../img/img13.svg);
+    background-size: 100vw 100vw;
+    height: 100vw;
+}
+
+.fondo4 {
+    background-image: url(../img/img20.svg);
+    background-size: 100vw 100vw;
+    height: 100vw;
+}
+
+.fondo5 {
+    background-image: url(../img/img21.svg);
+    background-size: 100vw 100vw;
+    height: 100vw;
+}
